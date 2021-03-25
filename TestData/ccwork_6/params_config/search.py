@@ -15,9 +15,7 @@ class To_Search(Config_page):
 
     def people(self):  # 找人
         time.sleep(5)
-        print("找人前")
         self.find_element_and_click(self._people)
-        print("找人后")
         return Search_Paging(self.driver)
 
     def group(self):  # 找群

@@ -7,7 +7,7 @@ class Config_page:
 
     _black_list = [
         (By.XPATH,
-         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ImageView[2]"),
+         "//*[@resource-id='android:id/button2']"),
     ]  # 这个就是写的在执行过程中出现的各种弹窗，广告
 
     def __init__(self, driver: WebDriver):
@@ -35,6 +35,7 @@ class Config_page:
         print("sendkkeys={}".format(sendkeys))
         if dian is not None:
             try:
+                self.find_element(locator).is_displayed()
                 self.find_element(locator).click()
                 self.find_element(locator).clear()
                 self.find_element(locator).send_keys(sendkeys)

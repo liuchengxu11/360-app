@@ -1,4 +1,5 @@
 import os
+import subprocess
 import time
 
 from appium import webdriver
@@ -6,6 +7,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from TestData.ccwork_6.params_config.signup.signup import Signup
 from TestData.ccwork_6.params_config.work_kanban.work_kanban import Work_Kanban
 
 """
@@ -24,12 +26,11 @@ class App:
 
     @classmethod
     def app(cls):
+        subprocess.call(["adb shell pm clear com.kook.im "],shell=True)  # 在app启动前先清空包的缓存  执行shell命令
         desired_caps = {}
         desired_caps["automationName"] = "UiAutomator2"
         desired_caps['platformName'] = 'Android'
         desired_caps['deviceName'] = 'Android Emulator'
-        # desired_caps['appPackage'] = 'com.tencent.mm'
-        # desired_caps['appActivity'] = 'com.tencent.mm.ui.LauncherUI'
         desired_caps['appPackage'] = 'com.kook.im'
         desired_caps['appActivity'] = 'com.kook.im.ui.welcome.SplashActivity'
         # appium提供的一种输入法，可以传中文。测试时直接用这个输入法
@@ -55,16 +56,7 @@ class App:
                 e.click()
             except:
                 pass
-        # 账号，密码，登陆
-        cls.driver.find_element_by_id(
-            "com.kook.im:id/et_accout").send_keys("liuchengxu")
-        cls.driver.find_element_by_id(
-            "com.kook.im:id/et_password").send_keys("liu65257504")
-        cls.driver.find_element_by_id(
-            "com.kook.im:id/et_ip").send_keys("27.115.124.242:8282")
-
-        cls.driver.find_element_by_id("com.kook.im:id/btn_login").click()
-        return Work_Kanban(cls.driver)   # 启动app之后页面进入 鲶鱼工作台页面
+        return Signup(cls.driver)   # 启动app之后页面进入 账号密码的输入页面
 
 
     @classmethod
