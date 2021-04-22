@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c97adf-2321-4340-b3ec-737ee9cb8933" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestData/ccwork_6/test_case/test_news_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/config_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/config_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/news/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/news/news.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/search_paging.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/search_paging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/test_case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/signup/signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/signup/signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/params_config/work_kanban/work_kanban.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/params_config/work_kanban/work_kanban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/ccwork_6/test_case/test_news_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ccwork_6/test_case/test_news_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,34 +59,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_news_search.Test_log">
-    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="360-app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestData/ccwork_6/Test_Case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestData/ccwork_6/Test_Case/test_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for TestData.ccwork_6.test_case.test_news_search.Test_log" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_Pytest.Test_Pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="360-app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -93,16 +72,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestData.ccwork_6.test_case.test_news_search.Test_log&quot;" />
+      <option name="_new_target" value="&quot;test_Pytest.Test_Pytest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for TestData.ccwork_6.test_case.test_news_search.Test_log.test_search_people" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_Pytest.Test_Pytest.test_three" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="360-app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -110,7 +89,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestData.ccwork_6.test_case.test_news_search.Test_log.test_search_people&quot;" />
+      <option name="_new_target" value="&quot;test_Pytest.Test_Pytest.test_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -131,7 +110,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_news_search.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_news_search.Test_log.test_search_grep" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="360-app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,17 +123,34 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestData/ccwork_6/test_case/test_news_search.py&quot;" />
+      <option name="_new_target" value="&quot;test_news_search.Test_log.test_search_grep&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_Pytest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="360-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_Pytest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_news_search.Test_log" />
-        <item itemvalue="Python tests.pytest in test_news_search.py" />
-        <item itemvalue="Python tests.pytest for TestData.ccwork_6.test_case.test_news_search.Test_log" />
-        <item itemvalue="Python tests.pytest for TestData.ccwork_6.test_case.test_news_search.Test_log.test_search_people" />
-        <item itemvalue="Python.test_login" />
+        <item itemvalue="Python tests.pytest for test_Pytest.Test_Pytest" />
+        <item itemvalue="Python tests.pytest in test_Pytest.py" />
+        <item itemvalue="Python tests.pytest for test_Pytest.Test_Pytest.test_three" />
+        <item itemvalue="Python tests.pytest for test_news_search.Test_log.test_search_grep" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +169,14 @@
       <workItem from="1616555109069" duration="18297000" />
       <workItem from="1616637432982" duration="280000" />
       <workItem from="1616638419005" duration="734000" />
-      <workItem from="1616639497531" duration="4481000" />
+      <workItem from="1616639497531" duration="11939000" />
+      <workItem from="1617176847490" duration="98000" />
+      <workItem from="1618912942143" duration="21185000" />
+      <workItem from="1619072547446" duration="61000" />
+      <workItem from="1619073051909" duration="69000" />
+      <workItem from="1619073430781" duration="58000" />
+      <workItem from="1619073499405" duration="695000" />
+      <workItem from="1619074337782" duration="3430000" />
     </task>
     <servers />
   </component>
@@ -193,13 +196,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_news_search_Test_log.coverage" NAME="pytest for test_news_search.Test_log Coverage Results" MODIFIED="1616640577373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$search.coverage" NAME="search Coverage Results" MODIFIED="1619070081614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/params_config" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_Pytest_Test_Pytest.coverage" NAME="pytest for test_Pytest.Test_Pytest Coverage Results" MODIFIED="1619076248356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/360_app$login_app.coverage" NAME="app Coverage Results" MODIFIED="1616549857770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/Params_Config" />
-    <SUITE FILE_PATH="coverage/360_app$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1616566848001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
-    <SUITE FILE_PATH="coverage/360_app$app.coverage" NAME="app Coverage Results" MODIFIED="1616554217807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/Params_Config" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_news_search_Test_log.coverage" NAME="pytest for test_news_search.Test_log Coverage Results" MODIFIED="1619077556775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
     <SUITE FILE_PATH="coverage/360_app$pytest_for_test_login_Test_log_test_search_people.coverage" NAME="pytest for test_login.Test_log.test_search_people Coverage Results" MODIFIED="1616564785549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
-    <SUITE FILE_PATH="coverage/360_app$pytest_in_test_news_search_py.coverage" NAME="pytest in test_news_search.py Coverage Results" MODIFIED="1616640082012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$search_paging.coverage" NAME="search_paging Coverage Results" MODIFIED="1616742778228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/params_config" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1616566848001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
     <SUITE FILE_PATH="coverage/360_app$pytest_for_test_login_Test_log.coverage" NAME="pytest for test_login.Test_log Coverage Results" MODIFIED="1616577303925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_in_test_Pytest_py.coverage" NAME="pytest in test_Pytest.py Coverage Results" MODIFIED="1619076222512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/360_app$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1616555116290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/Test_Case" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_news_search_Test_log_test_search_grep.coverage" NAME="pytest for test_news_search.Test_log.test_search_grep Coverage Results" MODIFIED="1619075879893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_Pytest_Test_Pytest_test_three.coverage" NAME="pytest for test_Pytest.Test_Pytest.test_three Coverage Results" MODIFIED="1619076129907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_for_test_news_search_Test_log_test_search_people.coverage" NAME="pytest for test_news_search.Test_log.test_search_people Coverage Results" MODIFIED="1619075745167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$pytest_in_test_news_search_py.coverage" NAME="pytest in test_news_search.py Coverage Results" MODIFIED="1618987277993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/test_case" />
+    <SUITE FILE_PATH="coverage/360_app$app.coverage" NAME="app Coverage Results" MODIFIED="1618975514648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestData/ccwork_6/params_config" />
   </component>
 </project>

@@ -14,7 +14,7 @@ class Signup(Config_page):
     _password = (By.ID, "com.kook.im:id/et_password")
     _ip = (By.ID, "com.kook.im:id/et_ip")
     _batton = (By.ID, "com.kook.im:id/btn_login")
-    _error = (By.XPATH, "//*[@resource-id='android:id/button2']")
+    _error = (By.XPATH, "//*[@resource-id='com.kook.im:id/txt_left']")
 
     def login(self):
         # 账号，密码，登陆

@@ -38,7 +38,7 @@ class App:
         desired_caps["resetKeyboard"] = "True"  # 程序结束时重置原来的输入法
         desired_caps["noReset"] = "True"  # 不初始化手机app信息（类似不清楚缓存）
         desired_caps['automationName'] = 'appium'
-        desired_caps['deviceName'] = '8KE5T19724017480'
+        desired_caps['deviceName'] = '7160e3a4'
         desired_caps['platformVersion'] = '10'
         desired_caps['autoGrantPermissions'] = 'True' # 这个是appium启动的时候处理各种权限弹窗  赋予全部权限
         # udid = os.getenv("UDID", None)
@@ -50,7 +50,7 @@ class App:
         cls.driver.implicitly_wait(10)
 
         for i in range(3): # app 启动的时候会有一些全县的弹窗 这块可以把它给去掉 autoGrantPermissions 这个有的时候不管用
-            loc = ("xpath", "//*[@text='始终允许']")
+            loc = ("xpath", "//*[@text='允许']")
             try:
                 e = WebDriverWait(cls.driver, 1, 0.5).until(EC.presence_of_element_located(loc))
                 e.click()

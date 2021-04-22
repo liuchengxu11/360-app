@@ -9,7 +9,7 @@ from TestData.ccwork_6.params_config.search import To_Search
 
 
 class News(Config_page):
-    _search=(By.XPATH,"//*[@content-desc='搜索']")
+    _search=(By.XPATH,"//*[@resource-id='com.kook.im:id/ll_search']")
 
     def news(self):
         pass
