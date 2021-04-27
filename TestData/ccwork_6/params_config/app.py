@@ -39,6 +39,7 @@ class App:
         desired_caps["noReset"] = "True"  # 不初始化手机app信息（类似不清楚缓存）
         desired_caps['automationName'] = 'appium'
         desired_caps['deviceName'] = '7160e3a4'
+        # desired_caps['deviceName'] = '192.168.50.235:5555'
         desired_caps['platformVersion'] = '10'
         desired_caps['autoGrantPermissions'] = 'True' # 这个是appium启动的时候处理各种权限弹窗  赋予全部权限
         # udid = os.getenv("UDID", None)

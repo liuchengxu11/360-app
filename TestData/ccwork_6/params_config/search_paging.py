@@ -12,6 +12,7 @@ class Search_Paging(Config_page):
     _search=(By.XPATH,"//*[@resource-id='com.kook.im:id/et_search']")
     _return1=(By.XPATH,"//*[@resource-id='com.kook.im:id/img_back']")
     _return2 = (By.XPATH, "//android.widget.ImageButton")
+    _quxiao= (By.ID,"com.kook.im:id/txt_cancel")
     def search(self):
         self.find_element_and_sendkeys(self._search,sendkeys="123")
         time.sleep(3)
@@ -31,15 +32,19 @@ class Search_Paging(Config_page):
         bo.swipe_to_bottom()
         time.sleep(2)
         self.find_element_and_click(self._return1)
+        self.find_element_and_click(self._quxiao)
         return Search_Paging(self.driver)
 
 
     def search2(self):
         self.find_element_and_sendkeys(self._search, sendkeys="88877")
         time.sleep(2)
+        self.find_element_and_click(self._return1)
+        self.find_element_and_click(self._quxiao)
 
     def search3(self):
-        pass
+        self.find_element_and_sendkeys(self._search, sendkeys="第三次")
+        time.sleep(2)
 
     def ret(self):
         self.find_element_and_click(self._return1)
